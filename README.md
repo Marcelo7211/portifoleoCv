@@ -7,7 +7,7 @@
 
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcelo-barboza-da-silva-547941199/)
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Marcelo7211)
-  [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5511913318489?text=Ol%C3%A1%20Marcelo,%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar!)
+  [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5511913318498?text=Ol%C3%A1%20Marcelo,%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar!)
   
   <br />
   
