@@ -65,7 +65,7 @@ export const translations = {
       heading: 'Projetos em Destaque desenvolvidos para clientes',
       results: 'Resultados:',
       seeMore: 'Ver mais',
-      accessApp: 'Acessar Aplicação',
+      accessApp: 'Aplicação',
       close: 'Fechar'
     },
     contact: {
@@ -153,7 +153,7 @@ export const translations = {
       heading: 'Featured Projects developed for clients',
       results: 'Results:',
       seeMore: 'See more',
-      accessApp: 'Access App',
+      accessApp: 'Application',
       close: 'Close'
     },
     contact: {
@@ -241,7 +241,7 @@ export const translations = {
       heading: 'Proyectos Destacados desarrollados para clientes',
       results: 'Resultados:',
       seeMore: 'Ver más',
-      accessApp: 'Acceder a la App',
+      accessApp: 'Aplicación',
       close: 'Cerrar'
     },
     contact: {

@@ -8,7 +8,7 @@ export const getCvData = (lang: Language = 'pt') => {
         title: "Especialista Técnico na Generation Brasil",
         location: "São Paulo, SP – Brasil",
         email: "marcelo.barboza.cmkp@gmail.com",
-        whatsapp: "5511913319489",
+        whatsapp: "5511913318498",
         linkedin: "https://www.linkedin.com/in/marcelo-barboza-da-silva-547941199",
         github: "https://github.com/Marcelo7211",
         portfolioGithub: "https://github.com/Marcelo7211",
@@ -203,7 +203,8 @@ export const getCvData = (lang: Language = 'pt') => {
           image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=800&auto=format&fit=crop",
           techs: ["React", "TypeScript", "Vite", "Tailwind CSS", "Zustand"],
           results: "+2.000 alunos impactados em diversas plataformas",
-          link: "https://rob-de-busca-de-vagas-tech.vercel.app"
+          githubLink: "https://github.com/Marcelo7211/Rob-de-Busca-de-Vagas-Tech",
+          link: "https://rob-de-busca-de-vagas-tech-delta.vercel.app/"
         },
         {
           title: "Plataforma para ONGs de Mulheres",
@@ -220,8 +221,8 @@ export const getCvData = (lang: Language = 'pt') => {
           image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop",
           techs: ["Java", "Spring Boot", "Power BI", "SQL", "Data Warehouse"],
           results: "Otimização de estratégias pedagógicas baseada em dados",
-          link: "https://dashboards-educacionais-analytics.vercel.app",
-          githubLink: "https://github.com/LucasCapSilva/DashboardsEducacionais-Analytics"
+          githubLink: "https://github.com/Marcelo7211/DashboardsEducacionais-Analytics",
+          link: "https://dashboards-educacionais-analytics-kappa.vercel.app/"
         },
         {
           title: "Plataforma LMS Escalonável",
@@ -238,8 +239,8 @@ export const getCvData = (lang: Language = 'pt') => {
           image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop",
           techs: ["C#", "ASP.NET Core", "React", "AWS SQS", "SQL Server"],
           results: "Aumentou a eficiência operacional em 35%",
-          link: "https://sistema-erp-imobili-rio.vercel.app",
-          githubLink: "https://github.com/LucasCapSilva/ERP-proyecto"
+          githubLink: "https://github.com/Marcelo7211/ERP-projeto",
+          link: "https://erp-projeto.vercel.app/"
         },
         {
           title: "Portal Financeiro & Corretagem",
@@ -248,7 +249,28 @@ export const getCvData = (lang: Language = 'pt') => {
           image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
           techs: ["Node.js", "NestJS", "React", "AWS", "Redis"],
           results: "Reduziu latência de processamento de dados em 50%",
-          link: "https://portal-financeiro-corretagem-white.vercel.app"
+          githubLink: "https://github.com/Marcelo7211/PortalFinanceiro",
+          link: "https://portal-financeiro-ten.vercel.app/"
+        },
+        {
+          title: "Dojo Paulista – Landing Page",
+          description: "Landing page desenvolvida para academia de artes marciais com foco na captação de novos alunos. Design moderno com navegação fluida, apresentação dos planos, diferenciais da escola e formulário de contato estrategicamente posicionado.",
+          longDescription: "Projeto de landing page completa para o Dojo Paulista, academia de artes marciais localizada em São Paulo. A página foi desenvolvida com foco total na conversão: apresenta o propósito da academia com a tagline 'Transformando Vidas, Forjando Campeões', detalha os planos disponíveis, destaca os diferenciais competitivos e oferece múltiplos pontos de contato ao longo da página. A navegação intuitiva inclui seções de Home, Nossos Planos, Loja, Sobre Nós e Fale Conosco, tudo com uma identidade visual forte e profissional que transmite credibilidade e inspira novos alunos.",
+          image: "https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=800&auto=format&fit=crop",
+          techs: ["React", "Typescript", "JavaScript", "Tailwind CSS"],
+          results: "Aumento de 40% na captação de novos alunos",
+          githubLink: "https://github.com/Marcelo7211/dojo-landingpage-ui",
+          link: "https://dojopaulista.vercel.app/"
+        },
+        {
+          title: "Carlos TRG – Landing Page de Terapia",
+          description: "Landing page criada para terapeuta com foco na captação e agendamento de consultas. Interface acolhedora e profissional com a proposta 'Transforme sua mente, reescreva sua história', otimizada para conversão de visitantes em pacientes.",
+          longDescription: "Landing page desenvolvida para Carlos TRG, terapeuta com atuação em São Paulo. A proposta do projeto foi criar uma presença digital empática e profissional, transmitindo confiança e acolhimento ao visitante em busca de apoio terapêutico. A página apresenta o terapeuta, seus serviços e abordagem, além de uma seção dedicada ao agendamento de sessões — ponto central de conversão da página. A navegação contempla Home, Sobre Mim, Agende uma Sessão, Fale Conosco e Nossos Serviços, com uma identidade visual sofisticada em tons de azul e lilás que reforça a proposta transformadora da terapia.",
+          image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop",
+          techs: ["React", "Typescript", "CalendarApi", "JavaScript", "Tailwind CSS"],
+          results: "Aumento em 80% na captação de novos pacientes, reduçao de 100% no indice de conflitos de agendamentos.",
+          githubLink: "https://github.com/Marcelo7211/carlostrg",
+          link: "https://carlostrg.vercel.app/"
         }
       ]
     },
@@ -425,7 +447,8 @@ export const getCvData = (lang: Language = 'pt') => {
           image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=800&auto=format&fit=crop",
           techs: ["React", "TypeScript", "Vite", "Tailwind CSS", "Zustand"],
           results: "2,000+ students impacted across platforms",
-          link: "https://rob-de-busca-de-vagas-tech.vercel.app"
+          githubLink: "https://github.com/Marcelo7211/Rob-de-Busca-de-Vagas-Tech",
+          link: "https://rob-de-busca-de-vagas-tech-delta.vercel.app/"
         },
         {
           title: "Platform for Women's NGOs",
@@ -442,8 +465,8 @@ export const getCvData = (lang: Language = 'pt') => {
           image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop",
           techs: ["Java", "Spring Boot", "Power BI", "SQL", "Data Warehouse"],
           results: "Data-driven optimization of pedagogical strategies",
-          link: "https://dashboards-educacionais-analytics.vercel.app",
-          githubLink: "https://github.com/LucasCapSilva/DashboardsEducacionais-Analytics"
+          link: "https://dashboards-educacionais-analytics-kappa.vercel.app/",
+          githubLink: "https://github.com/Marcelo7211/DashboardsEducacionais-Analytics"
         },
         {
           title: "Scalable LMS Platform",
@@ -460,8 +483,8 @@ export const getCvData = (lang: Language = 'pt') => {
           image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop",
           techs: ["C#", "ASP.NET Core", "React", "AWS SQS", "SQL Server"],
           results: "Increased operational efficiency by 35%",
-          link: "https://sistema-erp-imobili-rio.vercel.app",
-          githubLink: "https://github.com/LucasCapSilva/ERP-projeto"
+          link: "https://erp-projeto.vercel.app/",
+          githubLink: "https://github.com/Marcelo7211/ERP-projeto"
         },
         {
           title: "Financial & Brokerage Portal",
@@ -470,7 +493,28 @@ export const getCvData = (lang: Language = 'pt') => {
           image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
           techs: ["Node.js", "NestJS", "React", "AWS", "Redis"],
           results: "Reduced data processing latency by 50%",
-          link: "https://portal-financeiro-corretagem-white.vercel.app"
+          githubLink: "https://github.com/Marcelo7211/PortalFinanceiro",
+          link: "https://portal-financeiro-ten.vercel.app/"
+        },
+        {
+          title: "Dojo Paulista – Landing Page",
+          description: "Landing page built for a martial arts academy focused on student acquisition. Modern design with smooth navigation, plan presentation, school highlights and strategically placed contact forms.",
+          longDescription: "A complete landing page project for Dojo Paulista, a martial arts academy in São Paulo. The page was built with a total focus on conversion: presenting the academy's purpose with the tagline 'Transforming Lives, Forging Champions', detailing available plans, highlighting competitive advantages and offering multiple contact points throughout. Intuitive navigation includes Home, Our Plans, Shop, About Us and Contact sections, all with a strong and professional visual identity that conveys credibility and inspires new students.",
+          image: "https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=800&auto=format&fit=crop",
+          techs: ["HTML", "CSS", "JavaScript", "Vercel"],
+          results: "High-conversion landing page for martial arts student acquisition",
+          githubLink: "https://github.com/Marcelo7211/dojo-landingpage-ui",
+          link: "https://dojopaulista.vercel.app/"
+        },
+        {
+          title: "Carlos TRG – Therapy Landing Page",
+          description: "Landing page created for a therapist focused on patient acquisition and appointment booking. Welcoming and professional interface with the message 'Transform your mind, rewrite your story', optimized to convert visitors into patients.",
+          longDescription: "Landing page built for Carlos TRG, a therapist based in São Paulo. The goal was to create an empathetic and professional digital presence that conveys trust and warmth to visitors seeking therapeutic support. The page introduces the therapist, his services and approach, alongside a dedicated appointment booking section — the core conversion point. Navigation covers Home, About Me, Schedule a Session, Contact Us and Our Services, with a sophisticated visual identity in blue and lilac tones that reinforces the transformative nature of therapy.",
+          image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop",
+          techs: ["HTML", "CSS", "JavaScript", "Vercel"],
+          results: "Premium online booking platform with professional visual identity for a therapist",
+          githubLink: "https://github.com/Marcelo7211/carlostrg",
+          link: "https://carlostrg.vercel.app/"
         }
       ],
       education: [
@@ -669,7 +713,8 @@ export const getCvData = (lang: Language = 'pt') => {
           image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=800&auto=format&fit=crop",
           techs: ["React", "TypeScript", "Vite", "Tailwind CSS", "Zustand"],
           results: "+2.000 estudiantes impactados en múltiples plataformas",
-          link: "https://rob-de-busca-de-vagas-tech.vercel.app"
+          githubLink: "https://github.com/Marcelo7211/Rob-de-Busca-de-Vagas-Tech",
+          link: "https://rob-de-busca-de-vagas-tech-delta.vercel.app/"
         },
         {
           title: "Plataforma para ONGs de Mujeres",
@@ -686,8 +731,8 @@ export const getCvData = (lang: Language = 'pt') => {
           image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop",
           techs: ["Java", "Spring Boot", "Power BI", "SQL", "Data Warehouse"],
           results: "Optimización de estrategias pedagógicas basadas en datos",
-          link: "https://dashboards-educacionais-analytics.vercel.app",
-          githubLink: "https://github.com/LucasCapSilva/DashboardsEducacionais-Analytics"
+          githubLink: "https://github.com/Marcelo7211/DashboardsEducacionais-Analytics",
+          link: "https://dashboards-educacionais-analytics-kappa.vercel.app/"
         },
         {
           title: "Plataforma LMS Escalable",
@@ -704,8 +749,8 @@ export const getCvData = (lang: Language = 'pt') => {
           image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop",
           techs: ["C#", "ASP.NET Core", "React", "AWS SQS", "SQL Server"],
           results: "Aumentó la eficiencia operativa en un 35%",
-          link: "https://sistema-erp-imobili-rio.vercel.app",
-          githubLink: "https://github.com/LucasCapSilva/ERP-proyecto"
+          githubLink: "https://github.com/Marcelo7211/ERP-projeto",
+          link: "https://erp-projeto.vercel.app/"
         },
         {
           title: "Portal Financiero y Corretaje",
@@ -714,7 +759,28 @@ export const getCvData = (lang: Language = 'pt') => {
           image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
           techs: ["Node.js", "NestJS", "React", "AWS", "Redis"],
           results: "Redujo la latencia de procesamiento de datos en un 50%",
-          link: "https://portal-financeiro-corretagem-white.vercel.app"
+          githubLink: "https://github.com/Marcelo7211/PortalFinanceiro",
+          link: "https://portal-financeiro-ten.vercel.app/"
+        },
+        {
+          title: "Dojo Paulista – Landing Page",
+          description: "Landing page desarrollada para una academia de artes marciales centrada en la captación de nuevos alumnos. Diseño moderno con navegación fluida, presentación de planes, diferenciales de la escuela y formulario de contacto estratégicamente posicionado.",
+          longDescription: "Proyecto de landing page completa para el Dojo Paulista, academia de artes marciales ubicada en São Paulo. La página fue desarrollada con foco total en la conversión: presenta el propósito de la academia con el lema 'Transformando Vidas, Forjando Campeones', detalla los planes disponibles, destaca los diferenciales competitivos y ofrece múltiples puntos de contacto a lo largo de la página. La navegación intuitiva incluye secciones de Inicio, Nuestros Planes, Tienda, Sobre Nosotros y Contáctenos, todo con una identidad visual fuerte y profesional que transmite credibilidad e inspira a nuevos alumnos.",
+          image: "https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=800&auto=format&fit=crop",
+          techs: ["HTML", "CSS", "JavaScript", "Vercel"],
+          results: "Página de alta conversión para captación de alumnos de artes marciales",
+          githubLink: "https://github.com/Marcelo7211/dojo-landingpage-ui",
+          link: "https://dojopaulista.vercel.app/"
+        },
+        {
+          title: "Carlos TRG – Landing Page de Terapia",
+          description: "Landing page creada para un terapeuta con foco en la captación y programación de consultas. Interfaz acogedora y profesional con la propuesta 'Transforma tu mente, reescribe tu historia', optimizada para convertir visitantes en pacientes.",
+          longDescription: "Landing page desarrollada para Carlos TRG, terapeuta con actividad en São Paulo. El objetivo del proyecto fue crear una presencia digital empática y profesional que transmitiera confianza y acogida al visitante que busca apoyo terapéutico. La página presenta al terapeuta, sus servicios y enfoque, además de una sección dedicada al agendamiento de sesiones — punto central de conversión de la página. La navegación contempla Inicio, Sobre Mí, Agendar una Sesión, Contáctenos y Nuestros Servicios, con una identidad visual sofisticada en tonos azules y lilas que refuerza la propuesta transformadora de la terapia.",
+          image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop",
+          techs: ["HTML", "CSS", "JavaScript", "Vercel"],
+          results: "Plataforma de citas en línea con identidad visual premium para terapeuta",
+          githubLink: "https://github.com/Marcelo7211/carlostrg",
+          link: "https://carlostrg.vercel.app/"
         }
       ]
     }
