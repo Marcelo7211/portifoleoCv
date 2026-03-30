@@ -1,13 +1,13 @@
 <div align="center">
-  <img src="./src/assets/perfil.jpeg" alt="Lucas Capelotto da Silva" width="150" height="150" style="border-radius: 50%; object-fit: cover; border: 4px solid #6366f1;">
+  <img src="./src/assets/perfil.jpeg" alt="Marcelo Barboza da Silva" width="150" height="150" style="border-radius: 50%; object-fit: cover; border: 4px solid #6366f1;">
 
-  # Lucas Capelotto da Silva | Portfólio Profissional
+  # Marcelo Barboza da Silva | Portfólio Profissional
 
-  **Senior Full Stack Developer | Arquiteto de Software | Tech Lead**
+  **Tech Lead| Especialista Técnico| Senior Full Stack Developer | Arquiteto de Software**
 
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-capelotto-da-silva-43b26216a)
-  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LucasCapSilva)
-  [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5511932147070?text=Ol%C3%A1%20Lucas,%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar!)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcelo-barboza-da-silva-547941199/)
+  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Marcelo7211)
+  [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5511913318489?text=Ol%C3%A1%20Marcelo,%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar!)
   
   <br />
   
