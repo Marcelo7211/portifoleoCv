@@ -184,11 +184,21 @@ export const getCvData = (lang: Language = 'pt') => {
       ],
       projects: [
         {
+          title: "NerdCodeFlix",
+          description: "Plataforma gamificada de cursos online focada na capacitação em tecnologia. Atuei como Desenvolvedor Full Stack, participando ativamente da arquitetura da plataforma e na criação de conteúdos técnicos imersivos de alta performance.",
+          longDescription: "NerdCodeFlix é uma plataforma gamificada de ensino à distância projetada para revolucionar o aprendizado em tecnologia. Com uma interface UI/UX altamente imersiva inspirada em plataformas de streaming, o sistema oferece cursos dinâmicos e trilhas completas. Atuei de ponta a ponta, desde o desenho da arquitetura escalável utilizando Next.js, APIs de pagamento e mensageria, até a criação dos cursos oferecidos, garantindo alta disponibilidade, performance e uma jornada do usuário excepcional.",
+          image: "https://images.unsplash.com/photo-1555099962-4199c345e5dd?q=80&w=800&auto=format&fit=crop",
+          techs: ["Next.js", "TypeScript", "Stripe API", "Prisma ORM", "Redux", "Tailwind CSS", "JWT", "OAuth2", "Supabase API", "MySQL", "Docker", "Kubernetes", "Jenkins"],
+          results: "Plataforma completa em produção com catálogo ativo de cursos de tecnologia",
+          githubLink: "",
+          link: "https://nerdcodeflix.com.br/"
+        },
+        {
           title: "Robô de Busca de Vagas Tech",
           description: "Automação inteligente desenvolvida para auxiliar mais de 2.000 alunos na recolocação profissional. O robô monitora e agrega vagas de tecnologia de múltiplas plataformas como Infojobs, Gupy e LinkedIn.",
           longDescription: "Uma aplicação web inteligente e white-label projetada para revolucionar a recolocação profissional de desenvolvedores. O sistema analisa currículos em PDF diretamente no navegador, extrai habilidades e experiências, e utiliza um algoritmo de matching avançado para recomendar as vagas mais adequadas ao perfil do candidato. Desenvolvida como uma plataforma SaaS voltada para bootcamps e HR Techs, possui um painel de configurações para customização instantânea da marca, suporte nativo a Dark Mode e animações fluidas.",
           image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=800&auto=format&fit=crop",
-          techs: ["React", "TypeScript", "Vite", "Tailwind CSS", "Zustand"],
+          techs: ["React", "TypeScript", "Vite", "Tailwind CSS", "Zustand", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
           results: "+2.000 alunos impactados em diversas plataformas",
           githubLink: "https://github.com/Marcelo7211/Rob-de-Busca-de-Vagas-Tech",
           link: "https://rob-de-busca-de-vagas-tech-delta.vercel.app/"
@@ -197,7 +207,7 @@ export const getCvData = (lang: Language = 'pt') => {
           title: "Plataforma para ONGs de Mulheres",
           description: "Sistema desenvolvido para apoiar o empreendedorismo feminino através de ONGs. Inclui ferramentas de cálculo de viabilidade de negócios, gestão financeira simplificada e mentorias.",
           image: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?q=80&w=800&auto=format&fit=crop",
-          techs: ["React", "Node.js", "PostgreSQL", "AWS"],
+          techs: ["React", "Node.js", "PostgreSQL", "AWS", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
           results: "Impacto social direto no apoio a microempreendedoras",
           link: "#"
         },
@@ -206,7 +216,7 @@ export const getCvData = (lang: Language = 'pt') => {
           description: "Solução de Business Intelligence para empresas de educação, focada em métricas de engajamento, retenção e performance acadêmica. Integração direta com LMS e análise preditiva.",
           longDescription: "Uma solução abrangente de Business Intelligence voltada para o setor educacional. Este dashboard interativo oferece visualizações detalhadas de métricas de engajamento, retenção de alunos e performance acadêmica. Construído com foco na experiência do usuário, permite a análise preditiva e integração direta com sistemas de gestão de aprendizagem (LMS), facilitando a tomada de decisão estratégica para instituições de ensino.",
           image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop",
-          techs: ["Java", "Spring Boot", "Power BI", "SQL", "Data Warehouse"],
+          techs: ["Java", "Spring Boot", "Power BI", "SQL", "Data Warehouse", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
           results: "Otimização de estratégias pedagógicas baseada em dados",
           githubLink: "https://github.com/Marcelo7211/DashboardsEducacionais-Analytics",
           link: "https://dashboards-educacionais-analytics-kappa.vercel.app/"
@@ -215,7 +225,7 @@ export const getCvData = (lang: Language = 'pt') => {
           title: "Plataforma LMS Escalonável",
           description: "Sistema de gerenciamento de aprendizagem (LMS) desenvolvido do zero, atendendo mais de 2.200 usuários. Inclui streaming de vídeo, correção de exercícios baseada em IA e monitoramento de progresso.",
           image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop",
-          techs: ["React", "Java", "Spring Boot", "Docker", "Kubernetes"],
+          techs: ["React", "Java", "Spring Boot", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
           results: "Suportou pico de acessos com 99.9% de uptime",
           link: "#"
         },
@@ -224,7 +234,7 @@ export const getCvData = (lang: Language = 'pt') => {
           description: "Plataforma de gestão para o setor imobiliário focada em performance e eficiência. Integração com múltiplos serviços de terceiros e mensageria para processamento assíncrono.",
           longDescription: "Sistema ERP completo para imobiliárias, cobrindo gestão de imóveis, propostas comerciais, funil de vendas e acompanhamento operacional em tempo real. A solução integra serviços de terceiros e mensageria assíncrona para manter alta performance em processos críticos, com foco em produtividade e escalabilidade para equipes comerciais e administrativas.",
           image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop",
-          techs: ["C#", "ASP.NET Core", "React", "AWS SQS", "SQL Server"],
+          techs: ["C#", "ASP.NET Core", "React", "AWS SQS", "SQL Server", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
           results: "Aumentou a eficiência operacional em 35%",
           githubLink: "https://github.com/Marcelo7211/ERP-projeto",
           link: "https://erp-projeto.vercel.app/"
@@ -234,7 +244,7 @@ export const getCvData = (lang: Language = 'pt') => {
           description: "Aplicação robusta para corretoras, fornecendo análises em tempo real, integração de dados complexos e painéis de controle interativos de alta performance.",
           longDescription: "Uma aplicação web White-Label de alta performance para o mercado financeiro, desenvolvida para oferecer uma experiência de SaaS Financeiro premium. O sistema combina dados em tempo real, simulação de trading e gestão de carteira em uma interface sofisticada e totalmente personalizável. Permite personalização instantânea de cores da marca, suporte a Dark/Light Mode e integração híbrida de dados de mercado (Alpha Vantage + Mocks).",
           image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-          techs: ["Node.js", "NestJS", "React", "AWS", "Redis"],
+          techs: ["Node.js", "NestJS", "React", "AWS", "Redis", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
           results: "Reduziu latência de processamento de dados em 50%",
           githubLink: "https://github.com/Marcelo7211/PortalFinanceiro",
           link: "https://portal-financeiro-ten.vercel.app/"
@@ -429,11 +439,21 @@ export const getCvData = (lang: Language = 'pt') => {
       ],
       projects: [
         {
+          title: "NerdCodeFlix",
+          description: "Gamified online course platform focused on technology training. Worked as a Full Stack Developer, actively participating in the platform's architecture and creating high-performance immersive technical content.",
+          longDescription: "NerdCodeFlix is a gamified e-learning platform designed to revolutionize tech education. Featuring a highly immersive UI/UX inspired by streaming platforms, the system offers dynamic courses and learning paths. I worked end-to-end, from designing the scalable architecture using Next.js, payment APIs, and messaging, to creating the courses offered, ensuring high availability, performance, and an exceptional user journey.",
+          image: "https://images.unsplash.com/photo-1555099962-4199c345e5dd?q=80&w=800&auto=format&fit=crop",
+          techs: ["Next.js", "TypeScript", "Stripe API", "Prisma ORM", "Redux", "Tailwind CSS", "JWT", "OAuth2", "Supabase API", "MySQL", "Docker", "Kubernetes", "Jenkins"],
+          results: "Complete platform live in production with an active tech course catalog",
+          githubLink: "",
+          link: "https://nerdcodeflix.com.br/"
+        },
+        {
           title: "Tech Job Search Bot",
           description: "Intelligent automation to support 2,000+ students pursuing tech jobs. Monitors and aggregates vacancies from platforms like Infojobs, Gupy and LinkedIn.",
           longDescription: "A smart, white-label web application designed to improve professional placement for developers. It analyzes PDF resumes in the browser, extracts skills and experiences, and uses a matching algorithm to recommend suitable jobs. Built as a SaaS for bootcamps and HR Techs, featuring brand customization, native Dark Mode and fluid animations.",
           image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=800&auto=format&fit=crop",
-          techs: ["React", "TypeScript", "Vite", "Tailwind CSS", "Zustand"],
+          techs: ["React", "TypeScript", "Vite", "Tailwind CSS", "Zustand", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
           results: "2,000+ students impacted across platforms",
           githubLink: "https://github.com/Marcelo7211/Rob-de-Busca-de-Vagas-Tech",
           link: "https://rob-de-busca-de-vagas-tech-delta.vercel.app/"
@@ -442,7 +462,7 @@ export const getCvData = (lang: Language = 'pt') => {
           title: "Platform for Women's NGOs",
           description: "System to support female entrepreneurship through NGOs. Includes business viability tools, simplified financial management and mentoring.",
           image: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?q=80&w=800&auto=format&fit=crop",
-          techs: ["React", "Node.js", "PostgreSQL", "AWS"],
+          techs: ["React", "Node.js", "PostgreSQL", "AWS", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
           results: "Direct social impact supporting micro-entrepreneurs",
           link: "#"
         },
@@ -451,7 +471,7 @@ export const getCvData = (lang: Language = 'pt') => {
           description: "BI solution for education companies focused on engagement, retention and academic performance. Direct LMS integration and predictive analysis.",
           longDescription: "A comprehensive BI solution for the education sector providing detailed visualizations for engagement, retention and performance. Built with user experience in mind, enabling predictive analysis and direct LMS integration to support strategic decision-making.",
           image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop",
-          techs: ["Java", "Spring Boot", "Power BI", "SQL", "Data Warehouse"],
+          techs: ["Java", "Spring Boot", "Power BI", "SQL", "Data Warehouse", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
           results: "Data-driven optimization of pedagogical strategies",
           link: "https://dashboards-educacionais-analytics-kappa.vercel.app/",
           githubLink: "https://github.com/Marcelo7211/DashboardsEducacionais-Analytics"
@@ -460,7 +480,7 @@ export const getCvData = (lang: Language = 'pt') => {
           title: "Scalable LMS Platform",
           description: "Learning Management System serving 2,200+ users with video streaming, AI-based grading and progress monitoring.",
           image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop",
-          techs: ["React", "Java", "Spring Boot", "Docker", "Kubernetes"],
+          techs: ["React", "Java", "Spring Boot", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
           results: "Handled peak traffic with 99.9% uptime",
           link: "#"
         },
@@ -469,7 +489,7 @@ export const getCvData = (lang: Language = 'pt') => {
           description: "Management platform focused on performance and efficiency. Integrates third-party services and messaging for asynchronous processing.",
           longDescription: "Comprehensive ERP covering properties, proposals, sales pipeline and real-time operations. Integrates services and asynchronous messaging to keep critical flows fast and reliable, boosting productivity and scalability.",
           image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop",
-          techs: ["C#", "ASP.NET Core", "React", "AWS SQS", "SQL Server"],
+          techs: ["C#", "ASP.NET Core", "React", "AWS SQS", "SQL Server", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
           results: "Increased operational efficiency by 35%",
           link: "https://erp-projeto.vercel.app/",
           githubLink: "https://github.com/Marcelo7211/ERP-projeto"
@@ -479,7 +499,7 @@ export const getCvData = (lang: Language = 'pt') => {
           description: "High-performance web app for brokerages, providing real-time analytics, complex data integration and interactive dashboards.",
           longDescription: "A premium white-label Financial SaaS combining real-time data, trading simulation and portfolio management in a customizable interface. Supports instant brand color customization, Dark/Light Mode and hybrid market data integration.",
           image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-          techs: ["Node.js", "NestJS", "React", "AWS", "Redis"],
+          techs: ["Node.js", "NestJS", "React", "AWS", "Redis", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
           results: "Reduced data processing latency by 50%",
           githubLink: "https://github.com/Marcelo7211/PortalFinanceiro",
           link: "https://portal-financeiro-ten.vercel.app/"
@@ -688,11 +708,21 @@ export const getCvData = (lang: Language = 'pt') => {
       ],
       projects: [
         {
+          title: "NerdCodeFlix",
+          description: "Plataforma gamificada de cursos en línea enfocada en la capacitación tecnológica. Trabajé como Desarrollador Full Stack, participando activamente en la arquitectura de la plataforma y creando contenidos técnicos inmersivos de alto rendimiento.",
+          longDescription: "NerdCodeFlix es una plataforma gamificada de aprendizaje a distancia diseñada para revolucionar la educación tecnológica. Con una interfaz UI/UX altamente inmersiva inspirada en plataformas de streaming, el sistema ofrece cursos dinámicos y rutas de aprendizaje completas. Trabajé de principio a fin, desde el diseño de la arquitectura escalable utilizando Next.js, APIs de pago y mensajería, hasta la creación de los cursos ofrecidos, asegurando alta disponibilidad, rendimiento y un viaje de usuario excepcional.",
+          image: "https://images.unsplash.com/photo-1555099962-4199c345e5dd?q=80&w=800&auto=format&fit=crop",
+          techs: ["Next.js", "TypeScript", "Stripe API", "Prisma ORM", "Redux", "Tailwind CSS", "JWT", "OAuth2", "Supabase API", "MySQL", "Docker", "Kubernetes", "Jenkins"],
+          results: "Plataforma completa en producción con un catálogo activo de cursos tecnológicos",
+          githubLink: "",
+          link: "https://nerdcodeflix.com.br/"
+        },
+        {
           title: "Bot de Búsqueda de Empleo Tech",
           description: "Automatización inteligente desarrollada para ayudar a más de 2.000 estudiantes en la colocación profesional. El bot monitorea y agrega empleos tecnológicos de múltiples plataformas como Infojobs, Gupy y LinkedIn.",
           longDescription: "Una aplicación web inteligente y white-label diseñada para revolucionar la recolocación profesional de desarrolladores. El sistema analiza currículums en PDF directamente en el navegador, extrae habilidades y experiencias, y utiliza un algoritmo de matching avanzado para recomendar los trabajos más adecuados al perfil del candidato. Desarrollada como una plataforma SaaS para bootcamps y HR Techs, cuenta con un panel de configuración para la personalización instantánea de la marca, soporte nativo para Modo Oscuro y animaciones fluidas.",
           image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?q=80&w=800&auto=format&fit=crop",
-          techs: ["React", "TypeScript", "Vite", "Tailwind CSS", "Zustand"],
+          techs: ["React", "TypeScript", "Vite", "Tailwind CSS", "Zustand", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
           results: "+2.000 estudiantes impactados en múltiples plataformas",
           githubLink: "https://github.com/Marcelo7211/Rob-de-Busca-de-Vagas-Tech",
           link: "https://rob-de-busca-de-vagas-tech-delta.vercel.app/"
@@ -701,7 +731,7 @@ export const getCvData = (lang: Language = 'pt') => {
           title: "Plataforma para ONGs de Mujeres",
           description: "Sistema desarrollado para apoyar el emprendimiento femenino a través de ONGs. Incluye herramientas de cálculo de viabilidad empresarial, gestión financiera simplificada y mentorías.",
           image: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?q=80&w=800&auto=format&fit=crop",
-          techs: ["React", "Node.js", "PostgreSQL", "AWS"],
+          techs: ["React", "Node.js", "PostgreSQL", "AWS", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
           results: "Impacto social directo en el apoyo a microemprendedoras",
           link: "#"
         },
@@ -710,7 +740,7 @@ export const getCvData = (lang: Language = 'pt') => {
           description: "Solución de Business Intelligence para empresas de educación, centrada en métricas de compromiso, retención y rendimiento académico. Integración directa con LMS y análisis predictivo.",
           longDescription: "Una solución integral de Business Intelligence orientada al sector educativo. Este dashboard interactivo ofrece visualizaciones detalladas de métricas de compromiso, retención de estudiantes y rendimiento académico. Construido con un enfoque en la experiencia del usuario, permite el análisis predictivo y la integración directa con sistemas de gestión de aprendizaje (LMS), facilitando la toma de decisiones estratégicas para las instituciones educativas.",
           image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop",
-          techs: ["Java", "Spring Boot", "Power BI", "SQL", "Data Warehouse"],
+          techs: ["Java", "Spring Boot", "Power BI", "SQL", "Data Warehouse", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
           results: "Optimización de estrategias pedagógicas basadas en datos",
           githubLink: "https://github.com/Marcelo7211/DashboardsEducacionais-Analytics",
           link: "https://dashboards-educacionais-analytics-kappa.vercel.app/"
@@ -719,7 +749,7 @@ export const getCvData = (lang: Language = 'pt') => {
           title: "Plataforma LMS Escalable",
           description: "Sistema de gestión de aprendizaje (LMS) desarrollado desde cero, atendiendo a más de 2.200 usuarios. Incluye streaming de video, corrección de ejercicios basada en IA y monitoreo de progreso.",
           image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop",
-          techs: ["React", "Java", "Spring Boot", "Docker", "Kubernetes"],
+          techs: ["React", "Java", "Spring Boot", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
           results: "Soportó picos de tráfico con un 99.9% de tiempo de actividad",
           link: "#"
         },
@@ -728,7 +758,7 @@ export const getCvData = (lang: Language = 'pt') => {
           description: "Plataforma de gestión para el sector inmobiliario enfocada en el rendimiento y la eficiencia. Integración con múltiples servicios de terceros y mensajería para procesamiento asíncrono.",
           longDescription: "Plataforma ERP integral para operaciones inmobiliarias, con gestión de inmuebles, propuestas comerciales, embudo de ventas y seguimiento operativo en tiempo real. El sistema integra servicios de terceros y mensajería asíncrona para sostener alto rendimiento en flujos críticos, elevando la productividad y escalabilidad de equipos comerciales y administrativos.",
           image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop",
-          techs: ["C#", "ASP.NET Core", "React", "AWS SQS", "SQL Server"],
+          techs: ["C#", "ASP.NET Core", "React", "AWS SQS", "SQL Server", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
           results: "Aumentó la eficiencia operativa en un 35%",
           githubLink: "https://github.com/Marcelo7211/ERP-projeto",
           link: "https://erp-projeto.vercel.app/"
@@ -738,7 +768,7 @@ export const getCvData = (lang: Language = 'pt') => {
           description: "Aplicación robusta para corredurías, que proporciona análisis en tiempo real, integración de datos complejos y paneles de control interactivos de alto rendimiento.",
           longDescription: "Una aplicación web White-Label de alto rendimiento para el mercado financiero, desarrollada para ofrecer una experiencia premium de SaaS Financiero. El sistema combina datos en tiempo real, simulación de trading y gestión de cartera en una interfaz sofisticada y totalmente personalizable. Permite la personalización instantánea de los colores de la marca, soporte para Modo Oscuro/Claro e integración híbrida de datos de mercado (Alpha Vantage + Mocks).",
           image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-          techs: ["Node.js", "NestJS", "React", "AWS", "Redis"],
+          techs: ["Node.js", "NestJS", "React", "AWS", "Redis", "Docker", "Kubernetes", "JWT", "OAuth2", "Jenkins"],
           results: "Redujo la latencia de procesamiento de datos en un 50%",
           githubLink: "https://github.com/Marcelo7211/PortalFinanceiro",
           link: "https://portal-financeiro-ten.vercel.app/"
