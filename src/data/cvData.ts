@@ -42,6 +42,7 @@ export const getCvData = (lang: Language = 'pt') => {
           { name: "Event-Driven", level: 85 }
         ],
         dataAnalytics: [
+          { name: "Power BI", level: 90 },
           { name: "SQL Server", level: 90 },
           { name: "PostgreSQL", level: 85 }
         ],
@@ -181,20 +182,6 @@ export const getCvData = (lang: Language = 'pt') => {
           details: ["Fundamentos de computação, estruturas de dados e arquitetura de sistemas"]
         }
       ],
-      education: [
-        {
-          institution: "UNINOVE",
-          degree: "Análisis y Desarrollo de Sistemas",
-          period: "",
-          details: ["Formación en desarrollo de software, ingeniería de requisitos y bases de datos"]
-        },
-        {
-          institution: "Carlos Drummond de Andrade",
-          degree: "Ciencia de la Computación",
-          period: "",
-          details: ["Fundamentos de computación, estructuras de datos y arquitectura de sistemas"]
-        }
-      ],
       projects: [
         {
           title: "Robô de Busca de Vagas Tech",
@@ -280,10 +267,10 @@ export const getCvData = (lang: Language = 'pt') => {
         title: "Technical Expert at Generation Brazil",
         location: "São Paulo, SP – Brazil",
         email: "marcelo.barboza.cmkp@gmail.com",
-        whatsapp: "",
+        whatsapp: "5511913318498",
         linkedin: "https://www.linkedin.com/in/marcelo-barboza-da-silva-547941199",
-        github: "",
-        portfolioGithub: "",
+        github: "https://github.com/Marcelo7211",
+        portfolioGithub: "https://github.com/Marcelo7211",
         cvUrl: "",
         summary: "Professional with over 10 years of experience in software development and technical leadership. Works at the intersection of technology, education, and digital transformation, focusing on scalable systems, high availability, and building high-performance teams."
       },
@@ -314,6 +301,7 @@ export const getCvData = (lang: Language = 'pt') => {
           { name: "Event-Driven", level: 85 }
         ],
         dataAnalytics: [
+          { name: "Power BI", level: 90 },
           { name: "SQL Server", level: 90 },
           { name: "PostgreSQL", level: 85 }
         ],
@@ -501,8 +489,8 @@ export const getCvData = (lang: Language = 'pt') => {
           description: "Landing page built for a martial arts academy focused on student acquisition. Modern design with smooth navigation, plan presentation, school highlights and strategically placed contact forms.",
           longDescription: "A complete landing page project for Dojo Paulista, a martial arts academy in São Paulo. The page was built with a total focus on conversion: presenting the academy's purpose with the tagline 'Transforming Lives, Forging Champions', detailing available plans, highlighting competitive advantages and offering multiple contact points throughout. Intuitive navigation includes Home, Our Plans, Shop, About Us and Contact sections, all with a strong and professional visual identity that conveys credibility and inspires new students.",
           image: "https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=800&auto=format&fit=crop",
-          techs: ["HTML", "CSS", "JavaScript", "Vercel"],
-          results: "High-conversion landing page for martial arts student acquisition",
+          techs: ["React", "TypeScript", "JavaScript", "Tailwind CSS"],
+          results: "40% increase in new student acquisition",
           githubLink: "https://github.com/Marcelo7211/dojo-landingpage-ui",
           link: "https://dojopaulista.vercel.app/"
         },
@@ -511,8 +499,8 @@ export const getCvData = (lang: Language = 'pt') => {
           description: "Landing page created for a therapist focused on patient acquisition and appointment booking. Welcoming and professional interface with the message 'Transform your mind, rewrite your story', optimized to convert visitors into patients.",
           longDescription: "Landing page built for Carlos TRG, a therapist based in São Paulo. The goal was to create an empathetic and professional digital presence that conveys trust and warmth to visitors seeking therapeutic support. The page introduces the therapist, his services and approach, alongside a dedicated appointment booking section — the core conversion point. Navigation covers Home, About Me, Schedule a Session, Contact Us and Our Services, with a sophisticated visual identity in blue and lilac tones that reinforces the transformative nature of therapy.",
           image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop",
-          techs: ["HTML", "CSS", "JavaScript", "Vercel"],
-          results: "Premium online booking platform with professional visual identity for a therapist",
+          techs: ["React", "TypeScript", "CalendarApi", "JavaScript", "Tailwind CSS"],
+          results: "80% increase in new patient acquisition, 100% reduction in scheduling conflict rates.",
           githubLink: "https://github.com/Marcelo7211/carlostrg",
           link: "https://carlostrg.vercel.app/"
         }
@@ -538,10 +526,10 @@ export const getCvData = (lang: Language = 'pt') => {
         title: "Especialista Técnico en Generation Brasil",
         location: "São Paulo, SP – Brasil",
         email: "marcelo.barboza.cmkp@gmail.com",
-        whatsapp: "",
+        whatsapp: "5511913318498",
         linkedin: "https://www.linkedin.com/in/marcelo-barboza-da-silva-547941199",
-        github: "",
-        portfolioGithub: "",
+        github: "https://github.com/Marcelo7211",
+        portfolioGithub: "https://github.com/Marcelo7211",
         cvUrl: "",
         summary: "Profesional con más de 10 años de experiencia en desarrollo de software y liderazgo técnico. Actúa en la intersección entre tecnología, educación y transformación digital, con foco en sistemas escalables, alta disponibilidad y formación de equipos de alto rendimiento."
       },
@@ -572,6 +560,7 @@ export const getCvData = (lang: Language = 'pt') => {
           { name: "Event-Driven", level: 85 }
         ],
         dataAnalytics: [
+          { name: "Power BI", level: 90 },
           { name: "SQL Server", level: 90 },
           { name: "PostgreSQL", level: 85 }
         ],
@@ -602,105 +591,97 @@ export const getCvData = (lang: Language = 'pt') => {
       experience: [
         {
           company: "BYTE ANALYSIS TECHNOLOGY INFORMATION",
-          period: "2019 - Presente",
+          period: "2019 – Presente",
           roles: [
             {
-              title: "Ingeniero Full Stack Senior",
-              period: "2024 - Presente",
-              description: "Liderazgo en el desarrollo de aplicaciones escalables y robustas para el sector inmobiliario, construyendo plataformas completas para la gestión de propiedades, propuestas y embudos de ventas. Amplia experiencia en arquitecturas modernas, mensajería distribuida y entornos en la nube.",
+              title: "Analista de Sistemas Senior",
+              period: "2019 – Presente",
+              description: "Desarrollo Full Stack con C#, ASP.NET, React y SQL Server. Arquitectura de sistemas escalables, liderazgo técnico y mentoría de equipos.",
               achievements: [
-                "Aumento del 35% en la eficiencia operativa a través de mejoras arquitectónicas",
-                "Diseñó e implementó APIs REST seguras y de alto rendimiento con ASP.NET",
-                "Estructuró la comunicación asíncrona con RabbitMQ, Kafka y AWS SQS",
-                "Lideró la evolución del frontend en React con componentes reutilizables",
-                "Despliegue y gestión de aplicaciones en AWS (EC2, S3, RDS) con Docker y Kubernetes",
-                "Mentoría técnica de equipos, diseminando buenas prácticas"
+                "Arquitectura e implementación de sistemas corporativos de alta disponibilidad",
+                "Mejora continua del rendimiento en consultas y modelado de datos (SQL Server)",
+                "Uso de Docker, Kubernetes y AWS para despliegue y observabilidad",
+                "Integración de servicios y APIs con enfoque en seguridad y escalabilidad"
               ],
-              techs: ["C#", "ASP.NET", "React", "AWS", "SQL Server", "Docker", "Kubernetes", "Kafka"]
-            },
-            {
-              title: "Ingeniero Full Stack Semi-Senior",
-              period: "2020 - 2024",
-              description: "Desarrollo de plataformas inmobiliarias completas que cubren todo el proceso comercial y operativo, centrándose en soluciones escalables y seguras.",
-              achievements: [
-                "Optimización de bases de datos SQL Server con consultas y procedimientos eficientes",
-                "Creación de interfaces modernas y responsivas con Angular",
-                "Integraciones eficientes entre frontend y backend vía APIs",
-                "Implementación de aplicaciones en AWS y orquestación con Docker/Kubernetes"
-              ],
-              techs: ["C#", "ASP.NET", "Angular", "SQL Server", "Docker", "AWS"]
-            },
-            {
-              title: "Ingeniero Full Stack Junior",
-              period: "2018 - 2020",
-              description: "Desarrollo y mantenimiento de aplicaciones web, contribuyendo a funcionalidades, integración entre servicios y mejora continua de los sistemas.",
-              achievements: [
-                "Desarrollo de APIs REST con ASP.NET y endpoints para frontend",
-                "Creación de componentes reutilizables en React",
-                "Modelado de bases de datos SQL Server",
-                "Aplicación de buenas prácticas, pruebas y validación de funcionalidades"
-              ],
-              techs: ["C#", "ASP.NET", "React", "SQL Server"]
+              techs: ["C#", "ASP.NET", "React", "SQL Server", "Docker", "Kubernetes", "AWS"]
             }
           ]
         },
         {
           company: "Generation Brasil",
-          period: "2019 - Presente",
+          period: "2020 – Presente",
           roles: [
             {
               title: "Technical Expert",
-              period: "2022 - Presente",
-              description: "Creación y evolución de programas educativos orientados a la formación en tecnología, alineando las rutas de aprendizaje a las demandas del mercado. Rol conjunto como Desarrollador y Analista de Datos.",
+              period: "2022 – Presente",
+              description: "Definición técnica y pedagógica de cursos, mentoría de instructores y evolución de plataforma LMS.",
               achievements: [
-                "Estructuración de cursos y rutas en Canvas LMS, siguiendo el progreso de +700 estudiantes",
-                "Desarrollo de automatizaciones en Python (Flask) incluyendo un bot de búsqueda de empleo",
-                "Generación de insights con Python y Power BI para mejorar el currículo y la empleabilidad",
-                "Integración de datos de rendimiento y métricas de aprendizaje para decisiones estratégicas"
+                "Estructuración de rutas y contenidos alineados al mercado",
+                "Capacitación de instructores y seguimiento de métricas educativas",
+                "Mejoras continuas en la plataforma LMS con enfoque UX y escalabilidad"
               ],
-              techs: ["Python", "Flask", "Power BI", "Canvas LMS", "Data Analytics"]
+              techs: ["Python", "Canvas LMS", "Power BI", "Metodologías Ágiles"]
             },
             {
-              title: "Instructor y Dev Full Stack",
-              period: "2020 - 2024",
-              description: "Formación de profesionales de tecnología, impactando a más de 900 estudiantes. Desarrollo paralelo de una plataforma LMS escalable en una arquitectura de microservicios.",
+              title: "Instructor y Desarrollador",
+              period: "2020 – 2022",
+              description: "Formación de +900 alumnos y desarrollo de LMS con microservicios.",
               achievements: [
-                "Enseñó Java, C#, Node.js, React y Angular con mentoría en proyectos reales",
-                "Desarrollo de LMS que gestionó el aprendizaje de +2.200 usuarios",
-                "Implementó streaming de video y corrección automatizada basada en IA",
-                "Sistema construido con Java, Spring Boot, React, MySQL, Docker y Kubernetes"
+                "Enseñó Java, C#, Node.js, React y Angular",
+                "Mentoría de proyectos con enfoque en buenas prácticas y arquitectura",
+                "Desarrollo de funcionalidades críticas en LMS escalable"
               ],
-              techs: ["Java", "Spring Boot", "React", "MySQL", "Docker", "Kubernetes"]
-            },
-            {
-              title: "Instructor de Desarrollo de Software",
-              period: "2019 - 2020",
-              description: "Formación de profesionales en programas intensivos de desarrollo web enfocados en Java y Angular.",
-              achievements: [
-                "Impartió clases prácticas de APIs REST y bases de datos relacionales",
-                "Mentoría de estudiantes en proyectos reales, ofreciendo revisión de código",
-                "Enseñanza enfocada en desarrollo full stack y control de versiones con Git"
-              ],
-              techs: ["Java", "Spring Boot", "Angular", "Git"]
+              techs: ["Java", "C#", "Node.js", "React", "Angular", "MySQL", "Docker", "Kubernetes"]
             }
           ]
         },
         {
-          company: "Consultoría en Tecnología Freelance",
-          period: "2021 - Presente",
+          company: "Omni Hermes",
+          period: "2017 – 2019",
           roles: [
             {
-              title: "Arquitecto de Software y Dev Full Stack",
-              period: "2021 - Presente",
-              description: "Liderazgo de proyectos bajo demanda para empresas, startups y ONGs. Participación desde la definición de la arquitectura hasta la implementación completa de aplicaciones enfocadas en escalabilidad y seguridad.",
+              title: "Desarrollador Full Stack",
+              period: "2017 – 2019",
+              description: "Arquitectura de software y APIs; desarrollo de LMS, CRMs y plataformas financieras.",
               achievements: [
-                "Desarrollo de CRMs personalizados para ONGs (gestión de donantes y campañas)",
-                "Construcción de plataformas de inversión y sistemas para corredurías financieras",
-                "Desarrollo de plataformas LMS para gestión de cursos y contenidos",
-                "Creación de APIs y microservicios (Node.js, Java, Python) y apps móviles (React Native)",
-                "Infraestructura basada en contenedores (Docker/Kubernetes) e implementación en AWS"
+                "Construcción de APIs y servicios integrados",
+                "Aplicaciones en Node.js, Java, React y AWS",
+                "Enfoque en seguridad, rendimiento y escalabilidad"
               ],
-              techs: ["Node.js", "Java", "Python", "React Native", "AWS", "Docker", "Kubernetes"]
+              techs: ["Node.js", "Java", "React", "AWS", "PostgreSQL"]
+            }
+          ]
+        },
+        {
+          company: "Orcozol Assessoria",
+          period: "2013 – 2018",
+          roles: [
+            {
+              title: "Analista Senior / Semi-Senior / Junior",
+              period: "2013 – 2018",
+              description: "Desarrollo de sistemas web con C#, ASP.NET y Angular; modelado de bases de datos e integración frontend/backend.",
+              achievements: [
+                "Entrega de sistemas corporativos con enfoque en calidad",
+                "Modelado y optimización de bases de datos",
+                "Integraciones robustas entre capas"
+              ],
+              techs: ["C#", "ASP.NET", "Angular", "SQL Server"]
+            }
+          ]
+        },
+        {
+          company: "Atento",
+          period: "2008 – 2013",
+          roles: [
+            {
+              title: "Coordinador de Operaciones",
+              period: "2008 – 2013",
+              description: "Gestión de equipos y KPIs, mejora de procesos y calidad, liderazgo y capacitación.",
+              achievements: [
+                "Gestión de indicadores y mejora continua",
+                "Capacitación y liderazgo de equipos multidisciplinarios"
+              ],
+              techs: ["Gestión de Personas", "KPIs", "Procesos"]
             }
           ]
         }
@@ -767,8 +748,8 @@ export const getCvData = (lang: Language = 'pt') => {
           description: "Landing page desarrollada para una academia de artes marciales centrada en la captación de nuevos alumnos. Diseño moderno con navegación fluida, presentación de planes, diferenciales de la escuela y formulario de contacto estratégicamente posicionado.",
           longDescription: "Proyecto de landing page completa para el Dojo Paulista, academia de artes marciales ubicada en São Paulo. La página fue desarrollada con foco total en la conversión: presenta el propósito de la academia con el lema 'Transformando Vidas, Forjando Campeones', detalla los planes disponibles, destaca los diferenciales competitivos y ofrece múltiples puntos de contacto a lo largo de la página. La navegación intuitiva incluye secciones de Inicio, Nuestros Planes, Tienda, Sobre Nosotros y Contáctenos, todo con una identidad visual fuerte y profesional que transmite credibilidad e inspira a nuevos alumnos.",
           image: "https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=800&auto=format&fit=crop",
-          techs: ["HTML", "CSS", "JavaScript", "Vercel"],
-          results: "Página de alta conversión para captación de alumnos de artes marciales",
+          techs: ["React", "TypeScript", "JavaScript", "Tailwind CSS"],
+          results: "Aumento del 40% en la captación de nuevos alumnos",
           githubLink: "https://github.com/Marcelo7211/dojo-landingpage-ui",
           link: "https://dojopaulista.vercel.app/"
         },
@@ -777,10 +758,24 @@ export const getCvData = (lang: Language = 'pt') => {
           description: "Landing page creada para un terapeuta con foco en la captación y programación de consultas. Interfaz acogedora y profesional con la propuesta 'Transforma tu mente, reescribe tu historia', optimizada para convertir visitantes en pacientes.",
           longDescription: "Landing page desarrollada para Carlos TRG, terapeuta con actividad en São Paulo. El objetivo del proyecto fue crear una presencia digital empática y profesional que transmitiera confianza y acogida al visitante que busca apoyo terapéutico. La página presenta al terapeuta, sus servicios y enfoque, además de una sección dedicada al agendamiento de sesiones — punto central de conversión de la página. La navegación contempla Inicio, Sobre Mí, Agendar una Sesión, Contáctenos y Nuestros Servicios, con una identidad visual sofisticada en tonos azules y lilas que refuerza la propuesta transformadora de la terapia.",
           image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop",
-          techs: ["HTML", "CSS", "JavaScript", "Vercel"],
-          results: "Plataforma de citas en línea con identidad visual premium para terapeuta",
+          techs: ["React", "TypeScript", "CalendarApi", "JavaScript", "Tailwind CSS"],
+          results: "Aumento del 80% en la captación de nuevos pacientes, 100% de reducción en la tasa de conflictos de agenda.",
           githubLink: "https://github.com/Marcelo7211/carlostrg",
           link: "https://carlostrg.vercel.app/"
+        }
+      ],
+      education: [
+        {
+          institution: "UNINOVE",
+          degree: "Análisis y Desarrollo de Sistemas",
+          period: "",
+          details: ["Formación en desarrollo de software, ingeniería de requisitos y bases de datos"]
+        },
+        {
+          institution: "Carlos Drummond de Andrade",
+          degree: "Ciencia de la Computación",
+          period: "",
+          details: ["Fundamentos de computación, estructuras de datos y arquitectura de sistemas"]
         }
       ]
     }
