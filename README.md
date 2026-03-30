@@ -34,10 +34,7 @@ A aplicação apresenta uma interface responsiva ("mobile-first"), com suporte a
 
 ## 👨‍💻 Sobre Mim
 
-Com mais de **7 anos de experiência** no mercado, tenho atuado na intersecção entre tecnologia, educação e transformação digital. Sou especialista em desenhar e implementar **sistemas distribuídos, microsserviços e aplicações escaláveis**.
-
-Tenho forte vivência no desenvolvimento de plataformas educacionais (LMS), sistemas financeiros e soluções corporativas complexas, além de atuar como Tech Lead na capacitação de equipes.
-
+Apaixonado por adquirir e compartilhar conhecimento, atuo há mais de 10 anos construindo soluções full stack e liderando times de alta performance. Minha experiência inclui arquitetura de microsserviços, APIs REST e integrações event‑driven, com foco em qualidade, segurança e escalabilidade. Desenvolvo em Java (Spring Boot), C# (.NET Core), Node.js e Angular/React; no frontend, priorizo UX acessível e responsivo. Entreguei plataformas LMS e painéis de analytics (Power BI), sistemas financeiros e ERPs, operando com práticas de DevOps/SRE (Docker, Kubernetes, AWS/GCP, CI/CD e observabilidade) e coordenando processos com visão de produto e negócio.
 ---
 
 ## 🚀 Principais Habilidades
@@ -65,10 +62,10 @@ Pré-requisitos: Ter o [Node.js](https://nodejs.org/) instalado.
 
 ```bash
 # 1. Clone este repositório
-git clone https://github.com/LucasCapSilva/Portifolio-CV-Lucas-Capelotto.git
+git clone https://github.com/Marcelo7211/portifoleoCv.git
 
 # 2. Acesse a pasta do projeto
-cd Portifolio-CV-Lucas-Capelotto
+cd portifoleoCv
 
 # 3. Instale as dependências
 npm install --legacy-peer-deps
@@ -82,5 +79,5 @@ Acesse `http://localhost:5173` no seu navegador para ver o resultado.
 ---
 
 <div align="center">
-  <p>Desenvolvido com ☕ e código limpo por <strong>Lucas Capelotto</strong></p>
+  <p>Desenvolvido com ☕ e código limpo por <strong>Marcelo Barboza da Silva</strong></p>
 </div>
